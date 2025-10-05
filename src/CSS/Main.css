@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#Main{
+    display: flex;
+    width: 100vw;
+    height: 77vh;
+}
+
+#abtMeSec{
+    width: 65.5%;
+    color: white;
+    background-color: #171717;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+}
+
+#abtme{
+    font-size: 150px;
+}
+
+#Summ{
+    width: 50%;
+    color: white;
+    background-color: #00334d;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#semsec{
+    text-align: justify;
+    padding: 30px;
+    font-size: 20px;
+    word-spacing: 8px;
+}
+
+#btnicn{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    width: 100vw;
+    background-color: #042b3e;
+    border-top: 1px dashed white;
+    border-bottom: 1px dashed white;
+}
+
+.ibtnname{
+    border: none;
+    outline: none;
+    background-color:#042b3e ;
+}
+
+.icoons{
+    width: 70px;
+    height: 70px;
+    border-radius: 20px;
+    cursor: pointer;
+    /* mix-blend-mode:difference; */
+    background-color:#042b3e ;
+}
+
+#btndiv{
+    position: sticky;
+    top: 0;
+    /* z-index: 100; */
+
+}

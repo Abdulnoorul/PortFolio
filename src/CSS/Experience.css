@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+
+
+#Experi{
+    display: flex;
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #171717;
+    justify-content: center;
+}
+
+#ExperiE{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 150px;
+    font-weight: bolder;
+    letter-spacing: 5px;
+}
+
+#ExpSect{
+    width: 100vw;
+    height: 100vh;
+    background-color: #171717;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    justify-content: space-around;
+}
+
+#WebExp{
+    width: 45%;
+    background-color: #00334d;
+    padding: 15px;
+    border-radius: 5px;
+    height: 99vh;
+}
+
+#ExpTitle{
+    font-weight: bolder;
+    padding-bottom: 15px;
+    font-size: 50px;
+    text-align: center;
+    letter-spacing: 3px;
+}
+
+#JobTitle{
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+#listBull{
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 18px;
+    line-height: 40px;
+}
+
+#AmeExp{
+    width: 45%;
+    background-color: #00334d;
+    padding: 15px;
+    border-radius: 5px;
+    height: 99vh;
+}
+
+#amExp{
+    font-weight: bolder;
+    padding-bottom: 15px;
+    font-size: 40px;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+#Cmpny{
+    padding-bottom: 15px;
+    font-size: 28px;
+}
+
+#listBullet{
+    list-style-type: disc;
+    padding-left: 20px;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 45px;
+}

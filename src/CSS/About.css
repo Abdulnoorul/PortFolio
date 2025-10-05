@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#mainCon {
+  /* background-image: url("/bbg.jpg"); */
+  background-color: #171717;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+}
+
+.topTitle{
+    width: 1000px;
+    padding: 50px;
+    align-items: center;
+    background: #00334d;
+}
+
+#plogo {
+  width: 80px;
+  height: 80px;
+}
+
+#nameDet {
+  color: #e5e4e2;
+  font-family: "Oswald", sans-serif;
+  font-weight: 900;
+  font-style: normal;
+  font-size: 48px;
+  letter-spacing: 2px;
+  line-height: 100px;
+  overflow:hidden;
+  border-right: 2px solid rgb(255, 255, 255);
+  white-space: nowrap;  
+  animation: type 5.5s steps(34, end) 3s infinite, blink 0.50s step-end infinite;
+}
+
+@keyframes type{
+    from{width: 0;}
+    to{width: 100%;}
+}
+
+@keyframes blink{
+    80%{
+        border-color: transparent;
+    }
+}
+
+#Jtitle {
+  color: #e5e4e2;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 55px;
+  line-height: 100px;
+}
+
+#portTagLine {
+  color: #e5e4e2;
+  font-size: 20px;
+  text-align: justify;
+  font-family: 'Raleway', sans-serif;
+  line-height: 50px;
+}
+
+.display{
+    display: flex;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    row-gap: 80px;
+}
+
+#image {
+  height: 500px;
+  background: linear-gradient(to bottom, #00334d 0%, #001a26 40%, #000000 100%);
+  border-bottom-left-radius: 400px;
+  border-bottom-right-radius: 400px;
+}
+
+a{
+  text-decoration: none;
+}
+
+#Abtme{
+    width: 160px;
+    height: 45px;
+    font-size: 25px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: white;
+    background-color: #00334d;
+    transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out, scale 0.2s ease-in-out;
+}
+
+#Abtme:hover{
+    background-color: white;
+    color: #00334d;
+    scale: 1.1;
+}

@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#SkillSec{
+    background-color: #00334d;
+    width: 100vw;
+}
+
+#skillHead{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    font-size: 80px;
+    text-align: center;
+    color: white;
+}
+
+.skills-row1, .skills-row2, .skills-row3 {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  row-gap: 50px;
+  padding-bottom: 30px;
+}
+
+.category {
+  flex: 1; 
+  max-width: 500px;
+  background: #171717;
+  padding: 20px;
+  border-radius: 10px;
+  color: white;
+}
+
+.category-title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.skill {
+  margin-bottom: 12px;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: bolder;
+}
+
+.skill-name {
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+.progress-bar {
+  width: 400px;
+  height: 15px;
+  background: #ddd;
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.progress {
+  height: 100%;
+  border-radius: 50px;
+  width: 0%;
+}
+
+/* Different colors per category */
+.frontend { background: linear-gradient(90deg, #ff9800, #ff5722); }
+.backend { background: linear-gradient(90deg, #4caf50, #2e7d32); }
+.database { background: linear-gradient(90deg, #2196f3, #0d47a1); }
+.devtools { background: linear-gradient(90deg, #9c27b0, #673ab7); }
+.testing { background: linear-gradient(90deg, #f44336, #c62828); }
+.cloud { background: linear-gradient(90deg, #00bcd4, #00838f); }

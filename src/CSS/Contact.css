@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#ContSec{
+    background-color: #00334d;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+}
+
+#conSec{
+    display: flex;
+    justify-content: center;
+}
+
+#ConHead{
+    font-size: 150px;
+}
+
+#ConnIcon{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    row-gap: 50px;
+    width: 100vw;
+    justify-content:space-evenly;
+    align-items: center;
+}
+
+.icon{
+    width: 100px;
+    transition: scale 0.1s ease-in-out;
+}
+
+.icon:hover{
+    scale: 0.9;
+}
+
+.icon-row{
+    display: flex;
+    column-gap: 150px;
+}
+
+.icon-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    height: 200px;
+    row-gap: 10px;
+}
+
+.details{
+    padding: 20px;
+    font-weight: bolder;
+    background-color: #171717;
+    border-radius: 20px;
+    font-size: 20px;
+    color: white;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}

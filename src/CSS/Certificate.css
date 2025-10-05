@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#CertificateSec{
+    display: flex;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #171717;
+    color: white;
+    width: 100vw;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    column-gap: 20px;
+    row-gap: 50px;
+    padding-bottom: 25px;
+}
+
+#cHead{
+    text-align: center;
+    font-size: 150px;
+    font-weight: bolder;
+}
+
+#certSect{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+#GuviCert{
+    background-color: #00334d;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+#outCert{
+    background-color: #00334d;
+    width: 70vw;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.gcimg{
+    width: 1000px;
+}

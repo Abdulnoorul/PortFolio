@@ -1,0 +1,286 @@
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+
+#Proj{
+    background-color: #00334d;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    width: 100vw;
+}
+
+#ProjHead{
+    font-size: 150px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+#ProjSec{
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: #00334d;
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/*============== Wisper Talk Section==============*/
+
+#liProjI{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 5px;
+}
+
+#proIcon{
+    width: 200px;
+}
+
+#probull{
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 21.78px;
+}
+
+#wtbtn{
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00334d;
+    color: white;
+    transition: scale 0.1s ease-in-out;
+}
+
+#wtbtn:hover{
+    scale: 1.1;
+}
+
+/*============== PingMate Section==============*/
+
+#liProjII{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+}
+
+#proIconI{
+    width: 200px;
+}
+
+#probullII{
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 19.48px;
+}
+
+#pmbtn{
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00334d;
+    color: white;
+    transition: scale 0.1s ease-in-out;
+}
+
+#pmbtn:hover{
+    scale: 1.1;
+}
+
+/*============== Aurora Section==============*/
+
+#liProjIII{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+}
+
+#proIconII{
+    width: 200px;
+}
+
+#probullIII{
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 15.3px;
+}
+
+#acbtn{
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00334d;
+    color: white;
+    transition: scale 0.1s ease-in-out;
+}
+
+#acbtn:hover{
+    scale: 1.1;
+}
+
+/*============== NewsNow Section==============*/
+
+#liProjIV{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    align-items: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+    height: 500px;
+}
+
+#proIconIII{
+    width: 200px;
+    background-color: rgba(255, 255, 255, 0.173);
+}
+
+#probullIV{
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 17px;
+}
+
+#nnbtn{
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00334d;
+    color: white;
+    transition: scale 0.1s ease-in-out;
+}
+
+#nnbtn:hover{
+    scale: 1.1;
+}
+
+/*============== TravelNest Section==============*/
+
+#liProjV{
+    display: flex;
+    flex-direction: column;
+    background-color: #171717;
+    align-items: center;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 5px;
+    height: 500px;
+}
+
+#proIconIV{
+    width: 120px;
+}
+
+#probullV{
+    color: white;
+    padding: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: justify;
+    line-height: 20.3px;
+}
+
+#tnbtn{
+    border: none;
+    outline: none;
+    font-family: 'Montserrat', sans-serif;
+    width: 150px;
+    height: 30px;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bolder;
+    background-color: #00334d;
+    color: white;
+    transition: scale 0.1s ease-in-out;
+}
+
+#tnbtn:hover{
+    scale: 1.1;
+}
+
+/*============== More Section==============*/
+
+#liProjVI{
+    display: flex;
+    background-color: #171717;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 20px;
+    height: 500px;
+}
+
+#morbtn{
+    height: 50px;
+    width: 250px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 35px;
+    font-weight: bolder;
+    background-color: #39393989;
+    border: none;
+    outline: none;
+    color: white;
+    cursor: pointer;
+    transition: scale 0.1s ease-in-out, background-color 0.1s ease-in-out;
+    border-radius: 50px;
+}
+
+#morbtn:hover{
+    scale: 1.1;
+    background-color: #3430306f;
+}
