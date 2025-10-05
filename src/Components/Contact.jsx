@@ -71,6 +71,15 @@ function Contact() {
             </div>
           </div>
         </div>
+        <div id="footer">
+          <p id="Footpar">
+            © 2025 Abdul Khan [アブドゥル ヌールル アクラク カーン] → Clean
+            code, crafted with curiosity and care.
+          </p>
+        </div>
+        <a href="#mainCon" id="btanch">
+          <button id="TopBttn">&#9650;</button>
+        </a>
       </div>
     </>
   );

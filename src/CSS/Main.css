@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+/* Consolidated font imports */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&family=Raleway:wght@300;500&display=swap");
 
 #Main{
     display: flex;
@@ -69,5 +66,135 @@
     position: sticky;
     top: 0;
     /* z-index: 100; */
+}
 
+/* Media Queries for Responsiveness */
+
+/* Large screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #abtMeSec {
+        width: 60%;
+        padding: 40px;
+    }
+
+    #abtme {
+        font-size: 120px;
+    }
+
+    #Summ {
+        width: 40%;
+    }
+
+    #semsec {
+        font-size: 18px;
+        padding: 25px;
+        word-spacing: 6px;
+    }
+
+    .icoons {
+        width: 60px;
+        height: 60px;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media screen and (max-width: 768px) {
+    #Main {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+    }
+
+    #abtMeSec {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #abtme {
+        font-size: 80px;
+    }
+
+    #Summ {
+        width: 100%;
+    }
+
+    #semsec {
+        font-size: 16px;
+        padding: 20px;
+        word-spacing: 4px;
+    }
+
+    #btnicn {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        padding: 15px;
+    }
+
+    .icoons {
+        width: 50px;
+        height: 50px;
+        border-radius: 15px;
+    }
+}
+
+/* Mobile devices (up to 480px) */
+@media screen and (max-width: 480px) {
+    #abtMeSec {
+        padding: 20px;
+    }
+
+    #abtme {
+        font-size: 50px;
+    }
+
+    #Summ {
+        width: 100%;
+    }
+
+    #semsec {
+        font-size: 14px;
+        padding: 15px;
+        word-spacing: 3px;
+    }
+
+    #btnicn {
+        gap: 15px;
+        padding: 10px;
+    }
+
+    .icoons {
+        width: 40px;
+        height: 40px;
+        border-radius: 10px;
+    }
+}
+
+/* Extra small devices (up to 360px) */
+@media screen and (max-width: 360px) {
+    #abtMeSec {
+        padding: 15px;
+    }
+
+    #abtme {
+        font-size: 40px;
+    }
+
+    #semsec {
+        font-size: 12px;
+        padding: 10px;
+        word-spacing: 2px;
+    }
+
+    #btnicn {
+        gap: 10px;
+        padding: 8px;
+    }
+
+    .icoons {
+        width: 35px;
+        height: 35px;
+        border-radius: 8px;
+    }
 }

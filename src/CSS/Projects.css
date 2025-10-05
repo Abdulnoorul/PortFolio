@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+/* Consolidated font imports */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&family=Raleway:wght@300;500&display=swap");
 
 #Proj{
     background-color: #00334d;
@@ -283,4 +280,188 @@
 #morbtn:hover{
     scale: 1.1;
     background-color: #3430306f;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+    #ProjHead {
+        font-size: 120px;
+    }
+
+    #ProjSec {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #proIcon, #proIconI, #proIconII, #proIconIII {
+        width: 180px;
+    }
+
+    #proIconIV {
+        width: 100px;
+    }
+
+    #probull, #probullII, #probullIII, #probullIV, #probullV {
+        padding: 15px;
+        line-height: 18px;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    #wtbtn, #pmbtn, #acbtn, #nnbtn, #tnbtn {
+        width: 140px;
+        height: 28px;
+        font-size: 16px;
+    }
+
+    #morbtn {
+        width: 220px;
+        font-size: 30px;
+        height: 45px;
+    }
+
+    #liProjI, #liProjII, #liProjIII, #liProjIV, #liProjV, #liProjVI {
+        height: auto;
+        padding: 10px;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media screen and (max-width: 768px) {
+    #ProjHead {
+        font-size: 80px;
+    }
+
+    #ProjSec {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+        padding: 15px;
+    }
+
+    #proIcon, #proIconI, #proIconII, #proIconIII {
+        width: 150px;
+    }
+
+    #proIconIV {
+        width: 80px;
+    }
+
+    #probull, #probullII, #probullIII, #probullIV, #probullV {
+        padding: 10px;
+        font-size: 14px;
+        line-height: 20px;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    #wtbtn, #pmbtn, #acbtn, #nnbtn, #tnbtn {
+        width: 120px;
+        height: 25px;
+        font-size: 14px;
+    }
+
+    #morbtn {
+        width: 180px;
+        font-size: 24px;
+        height: 40px;
+    }
+
+    #liProjI, #liProjII, #liProjIII, #liProjIV, #liProjV, #liProjVI {
+        height: auto;
+        padding: 8px;
+    }
+}
+
+/* Mobile devices (up to 480px) */
+@media screen and (max-width: 480px) {
+    #ProjHead {
+        font-size: 50px;
+    }
+
+    #ProjSec {
+        grid-template-columns: 1fr;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    #proIcon, #proIconI, #proIconII, #proIconIII {
+        width: 120px;
+    }
+
+    #proIconIV {
+        width: 60px;
+    }
+
+    #probull, #probullII, #probullIII, #probullIV, #probullV {
+        padding: 8px;
+        font-size: 12px;
+        line-height: 18px;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    #wtbtn, #pmbtn, #acbtn, #nnbtn, #tnbtn {
+        width: 100px;
+        height: 24px;
+        font-size: 12px;
+    }
+
+    #morbtn {
+        width: 160px;
+        font-size: 20px;
+        height: 35px;
+    }
+
+    #liProjI, #liProjII, #liProjIII, #liProjIV, #liProjV, #liProjVI {
+        height: auto;
+        padding: 5px;
+    }
+}
+
+/* Extra small devices (up to 360px) */
+@media screen and (max-width: 360px) {
+    #ProjHead {
+        font-size: 40px;
+    }
+
+    #ProjSec {
+        gap: 8px;
+        padding: 8px;
+    }
+
+    #proIcon, #proIconI, #proIconII, #proIconIII {
+        width: 100px;
+    }
+
+    #proIconIV {
+        width: 50px;
+    }
+
+    #probull, #probullII, #probullIII, #probullIV, #probullV {
+        padding: 5px;
+        font-size: 11px;
+        line-height: 16px;
+        overflow-wrap: break-word;
+        text-align: left;
+    }
+
+    #wtbtn, #pmbtn, #acbtn, #nnbtn, #tnbtn {
+        width: 90px;
+        height: 22px;
+        font-size: 11px;
+    }
+
+    #morbtn {
+        width: 140px;
+        font-size: 18px;
+        height: 30px;
+    }
+
+    #liProjI, #liProjII, #liProjIII, #liProjIV, #liProjV, #liProjVI {
+        height: auto;
+        padding: 5px;
+    }
 }

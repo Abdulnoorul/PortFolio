@@ -1,8 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Raleway:wght@300;500&display=swap');
+/* Consolidated font imports */
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&family=Oswald:wght@200..700&family=Parisienne&family=Tangerine:wght@400;700&family=Playfair+Display:wght@700;900&family=Montserrat:wght@300;400;600&family=Raleway:wght@300;500&display=swap");
 
 #mainCon {
   /* background-image: url("/bbg.jpg"); */
@@ -108,4 +105,178 @@ a{
     background-color: white;
     color: #00334d;
     scale: 1.1;
+}
+
+/* Media Queries for Responsiveness */
+
+/* Large screens (up to 1200px) */
+@media screen and (max-width: 1200px) {
+    .topTitle {
+        width: 80%;
+        padding: 40px;
+    }
+
+    #nameDet {
+        font-size: 40px;
+        line-height: 80px;
+    }
+
+    #Jtitle {
+        font-size: 45px;
+        line-height: 80px;
+    }
+
+    #portTagLine {
+        font-size: 18px;
+        line-height: 40px;
+    }
+
+    .display {
+        width: 60%;
+    }
+
+    #image {
+        height: 400px;
+    }
+}
+
+/* Tablets (up to 768px) */
+@media screen and (max-width: 768px) {
+    #mainCon {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        height: auto;
+    }
+
+    .topTitle {
+        width: 100%;
+        padding: 30px;
+        text-align: center;
+    }
+
+    #plogo {
+        width: 60px;
+        height: 60px;
+    }
+
+    #nameDet {
+        font-size: 32px;
+        line-height: 60px;
+    }
+
+    #Jtitle {
+        font-size: 36px;
+        line-height: 60px;
+    }
+
+    #portTagLine {
+        font-size: 16px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .display {
+        width: 100%;
+        row-gap: 50px;
+    }
+
+    #image {
+        height: 300px;
+        border-bottom-left-radius: 200px;
+        border-bottom-right-radius: 200px;
+    }
+
+    #Abtme {
+        width: 140px;
+        height: 40px;
+        font-size: 20px;
+    }
+}
+
+/* Mobile devices (up to 480px) */
+@media screen and (max-width: 480px) {
+    .topTitle {
+        padding: 20px;
+    }
+
+    #plogo {
+        width: 50px;
+        height: 50px;
+    }
+
+    #nameDet {
+        font-size: 24px;
+        line-height: 50px;
+    }
+
+    #Jtitle {
+        font-size: 28px;
+        line-height: 50px;
+    }
+
+    #portTagLine {
+        font-size: 14px;
+        line-height: 25px;
+    }
+
+    .display {
+        row-gap: 30px;
+    }
+
+    #image {
+        height: 200px;
+        border-bottom-left-radius: 150px;
+        border-bottom-right-radius: 150px;
+    }
+
+    #Abtme {
+        width: 120px;
+        height: 35px;
+        font-size: 18px;
+    }
+}
+
+/* Extra small devices (up to 360px) */
+@media screen and (max-width: 360px) {
+    .topTitle {
+        padding: 15px;
+    }
+
+    #plogo {
+        width: 40px;
+        height: 40px;
+    }
+
+    #nameDet {
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+    #Jtitle {
+        font-size: 24px;
+        line-height: 40px;
+    }
+
+    #portTagLine {
+        font-size: 12px;
+        line-height: 20px;
+    }
+
+    .display {
+        row-gap: 20px;
+    }
+
+    #image {
+        height: 150px;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+    }
+
+    #Abtme {
+        width: 100px;
+        height: 30px;
+        font-size: 16px;
+    }
 }
