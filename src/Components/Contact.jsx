@@ -65,7 +65,7 @@ function Contact() {
                   </a>
                   <br />
                   <br />
-                  <a href="https://line.me/ti/p/your-id">Line Message</a>
+                  <a href="https://line.me/ti/p/LcqPsz-m-2">Line Message</a>
                 </div>
               )}
             </div>
